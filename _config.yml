@@ -2,6 +2,11 @@
 # MANDATORY SITE SETTINGS
 # =======================
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+livereload: true
 url: https://boldcode.io
 baseurl: ""
 title: Bold Code 
