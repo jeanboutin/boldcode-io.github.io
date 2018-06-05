@@ -1,0 +1,81 @@
+
+# MANDATORY SITE SETTINGS
+# =======================
+
+url: https://datatransition.net
+baseurl: ""
+title: Data Transition
+email: contact@datatransition.net
+description: "Nous développons les outils qui vous facilitent la mise en place d’une gestion responsable des données"
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+
+# JEKYLL PLUGINS
+# ==============
+
+# Jekyll SEO plugin
+lang: fr_FR
+twitter:
+    username: DT_privacy
+logo: /img/logos/logo-DT-color-blackbg.256p.png
+image: 
+    path: /img/logos/logo-DT-color-blackbg.256p.png
+
+# JEKYLL TEMPLATE
+# ===============
+
+# Team names, titles and social links
+people:
+  - name: Laure Isabelle<br/>LIGAUDAN
+    pic: laure-isabelle-ligaudan
+    position: Métier et produits
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
+      - title: twitter
+        url: https://twitter.com/lilconseil
+
+  - name: Michael<br/>FOZEU
+    pic: michael-fozeu
+    position: Stratégie et innovation
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/michaelfozeu/
+      - title: twitter
+        url: https://twitter.com/mfozeu
+
+  - name: Glenn<br/>ROLLAND
+    pic: glenn-rolland
+    position: Sécurité et systèmes d'information
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/glenux/
+      - title: twitter
+        url: https://twitter.com/glenux
+
+  - name: Raphaël<br/>RAULT
+    pic: raphael-rault
+    position: Juridique et certifications
+    social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/rrault/?ppe=1
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/DT_privacy 
+    username: "@DT_privacy"
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Fécamp
+  - line: Fécamp
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+permalink: contact
