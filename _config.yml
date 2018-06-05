@@ -2,10 +2,10 @@
 # MANDATORY SITE SETTINGS
 # =======================
 
-url: https://datatransition.net
+url: https://boldcode.io
 baseurl: ""
-title: Data Transition
-email: contact@datatransition.net
+title: Bold Code 
+email: contact@boldcode.io
 description: "Nous développons les outils qui vous facilitent la mise en place d’une gestion responsable des données"
 
 gems:
