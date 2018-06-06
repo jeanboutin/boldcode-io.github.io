@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 #  gem 'compass'
 #end
 
+gem 'sass'
+
 group :jekyll_plugins do 
   gem 'jekyll-compose'
   gem 'jekyll-seo-tag'
