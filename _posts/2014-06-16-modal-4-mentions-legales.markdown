@@ -24,7 +24,7 @@ En application de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans
 l’économie numérique, pour signaler un contenu litigieux ou si vous êtes
 victime d’une utilisation frauduleuse du site BOLDCODE.IO, merci de
 contacter l’administrateur du site à l’adresse courriel :
-**glenn@boldcode.io**
+**glenn.rolland@boldcode.io**
 
 #### Collecte et traitement de données personnelles
 
@@ -70,7 +70,7 @@ interruptions du site BOLDCODE.IO et de ses services.
 #### Concepteur / Créateur
 
 L’ensemble du site BOLDCODE.IO, conception, charte graphique et
-applications, a été créé et développé et est administré par Oze & Co.
+applications, a été créé et développé et est administré par BOLDCODE SAS.
 
 #### Contenus et droits de reproduction
 
@@ -78,13 +78,13 @@ En application des articles L. 111-1 et L. 123-1 du Code de la Propriété
 Intellectuelle, l’ensemble des contenus de ce site (textes, images, vidéos et
 tout média en général), sauf mention contraire explicite, est protégé par le
 droit d’auteur. La reproduction, même partielle, des contenus des pages de ce
-site sans accord préalable de Oze & Co est strictement interdite (les courtes
+site sans accord préalable de BOLDCODE SAS est strictement interdite (les courtes
 citations sont autorisées par le droit français pour commentaires et
 critiques, tant que ceux-ci y sont strictement concomitants et que sont
 précisés l’auteur original et le lien Internet vers la page source).  
   
-OZE & Co est immatriculée au RCS du Havre Siret : 823 633 920 & géré par Fred
-de la compta  
+BOLDCODE SAS est immatriculée au RCS d'Annecy : 837 643 931 <!-- & géré par Fred
+de la compta  -->
   
-© Copyright Oze & Co Tous droits réservés.
+© Copyright BOLDCODE SAS &mdash; Tous droits réservés.
 

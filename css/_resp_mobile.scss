@@ -192,6 +192,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: $colorWhite;
 
 	.navbar-brand {
+  		position: relative;
     	font-family: "Helvetica Neue",Helvetica,Arial,cursive;
     	color: #222; 
 
@@ -242,17 +243,34 @@ fieldset[disabled] .btn-xl.active {
     	color:  $colorPrimary ;
 	}
 
-	.navbar-nav>.active>a {
+	.navbar-nav > .active > a {
     	border-radius: 0;
     	color: #fff;
     	background-color:  $colorPrimary ;
 	}
 
-	.navbar-nav>.active>a:hover,
-	.navbar-nav>.active>a:focus {
+	.navbar-nav > .active > a:hover,
+	.navbar-nav > .active > a:focus {
     	color: #fff;
     	background-color:  $colorSecondary ;
 	}
+}
+
+#logo {
+  	position: absolute;
+  	width: 100px;
+  	-webkit-transition: all .3s;
+  	-moz-transition: all .3s;
+  	transition: all .3s;
+  	top: 2px;
+}
+
+.navbar-shrink #logo {
+  	width: 180px;
+  	-webkit-transition: all .3s;
+  	-moz-transition: all .3s;
+  	transition: all .3s;
+  	top: 2px;
 }
 
 header {

@@ -4,11 +4,11 @@
 .navbar-default {
     padding: 25px 0;
     border: 0;
-    background-color: transparent;
+    background-color: $colorWhite;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid $colorYellow;
 
     .navbar-brand {
         font-size: 2em;
@@ -17,7 +17,7 @@
         transition: all .3s;
     }
 
-    .navbar-nav>.active>a {
+    .navbar-nav > .active > a {
         border-radius: 3px;
     }
 
@@ -61,5 +61,11 @@ section {
     padding: 150px 0;
 }
 
-
-
+#logo {
+  	position: absolute;
+  	width: 256px;
+  	-webkit-transition: all .3s;
+  	-moz-transition: all .3s;
+  	transition: all .3s;
+  	top: -7px;
+}

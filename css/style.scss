@@ -515,38 +515,9 @@ section#about #sensibilisation {
   	margin-top: 75px;
 }
 
-.navbar-brand {
-  	position: relative;
-}
 
 
-#logo {
-  	position: absolute;
-  	width: 100px;
-  	-webkit-transition: all .3s;
-  	-moz-transition: all .3s;
-  	transition: all .3s;
-  	top: 2px;
-}
 
-@media (min-width: 768px) {
-	#logo {
-  	  	position: absolute;
-  	  	width: 160px;
-  	  	-webkit-transition: all .3s;
-  	  	-moz-transition: all .3s;
-  	  	transition: all .3s;
-  	  	top: 12px;
-	}
-}
-
-.navbar-shrink #logo {
-  	width: 180px;
-  	-webkit-transition: all .3s;
-  	-moz-transition: all .3s;
-  	transition: all .3s;
-  	top: 2px;
-}
 
 
 footer {
