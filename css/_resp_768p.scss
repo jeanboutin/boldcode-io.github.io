@@ -1,0 +1,65 @@
+
+@import "config.scss";
+
+.navbar-default {
+    padding: 25px 0;
+    border: 0;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    border-bottom: 1px solid transparent;
+
+    .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+	/*couleur de la barre en haut*/
+    &.navbar-shrink {
+        padding: 10px 0;
+        background-color:  $colorWhite ;
+        border-bottom: 1px solid orange;
+    }
+
+    &.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+   	.intro-text {
+        padding-top: 200px;
+        padding-bottom: 300px;
+    }
+
+   	.intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family:  $fontSecondary ;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+   	.intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family:  $fontPrimary ;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+    padding: 150px 0;
+}
+
+
+

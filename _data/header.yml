@@ -1,12 +1,12 @@
 intro:
-  lead-in: Bold Code
+  lead-in: Pour vos projets informatiques, adoptez
   heading: L'outsourcing éthique au Népal
 
 menu:
   - title: Vision
     href: '#services'
-  - title: Conseil
-    href: '#hotline_cards'
+    #  - title: Conseil
+    # href: '#hotline_cards'
   - title: Produits
     href: '#product_cards'
   - title: Equipe 

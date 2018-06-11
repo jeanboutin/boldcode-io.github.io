@@ -1,0 +1,314 @@
+
+@import "config.scss";
+
+body {
+    overflow-x: hidden;
+    font-family: $fontRoboto;
+    color:  $colorSecondaryDark;
+}
+
+.text-muted {
+    color:  $colorMuted;
+}
+
+.text-muted2 {
+    color:  $colorMuted2 ;
+}
+
+.text-primary {
+    color:  $colorPrimary ;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+/* rule/cssDuplicatedSelectors */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color:  $colorPrimary ;
+}
+
+a:link
+{
+ text-decoration:none;
+} 
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color:  $colorPrimary ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+}
+
+h3.text-muted2.clearfix{
+  	text-align: justify;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color:  $colorPrimary ;
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+    color: #fff;
+    background-color:  $colorPrimary ;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color:  $colorPrimary ;
+    color: #fff;
+    background-color:  $colorSecondary ;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color:  $colorPrimary ;
+    background-color:  $colorPrimary ;
+}
+
+.btn-primary .badge {
+    color:  $colorPrimary ;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color:  $colorPrimary ;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color:  $colorPrimary ;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color:  $colorPrimary ;
+    color: #333;
+    background-color:  $colorSecondary ;
+
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color:  $colorPrimary ;
+    background-color:  $colorPrimary ;
+}
+
+.btn-xl .badge {
+    color:  $colorPrimary ;
+    background-color: #fff;
+}
+
+.navbar-default {
+    border-color: $colorWhite;
+    border-bottom: 1px solid $colorYellow;
+    background-color: $colorWhite;
+
+	.navbar-brand {
+    	font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+    	color: #222; 
+
+		&:hover,
+		&:focus,
+		&:active,
+		&.active {
+    		color:  $colorSecondary ;
+		}
+	}
+
+	.navbar-collapse {
+    	border-color: rgba(255,255,255,.02);
+	}
+
+	.navbar-toggle {
+    	border-color:  $colorPrimary ;
+    	background-color:  $colorPrimary ;
+	}
+
+	.navbar-toggle .icon-bar {
+    	background-color: #fff;
+	}
+
+	.navbar-toggle:hover,
+	.navbar-toggle:focus {
+    	background-color:  $colorPrimary ;
+	}
+
+	.nav li a {
+    	text-transform: uppercase;
+    	font-family:  $fontPrimary ;
+    	font-size: 15px;
+    	padding: 7px 5px;
+    	margin: 12px 0px 0px 5px;
+    	font-weight: 400;
+    	letter-spacing: 1px;
+    	color:  $colorBlack ;
+
+    	-webkit-transition: all ease .35s;
+    	-moz-transition: all ease .35s;
+    	transition: all ease .35s;
+	}
+
+	.nav li a:hover,
+	.nav li a:focus {
+    	outline: 0;
+    	color:  $colorPrimary ;
+	}
+
+	.navbar-nav>.active>a {
+    	border-radius: 0;
+    	color: #fff;
+    	background-color:  $colorPrimary ;
+	}
+
+	.navbar-nav>.active>a:hover,
+	.navbar-nav>.active>a:focus {
+    	color: #fff;
+    	background-color:  $colorSecondary ;
+	}
+}
+
+header {
+    text-align: center;
+    color:  $colorWhite ;
+    background-attachment: scroll;
+    background-image: url('../img/header-bg.jpg');
+    background-position: center 10%;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+	.intro-text {
+    	padding-top: 100px;
+    	padding-bottom: 50px;
+
+		.intro-lead-in {
+    		margin-bottom: 25px;
+    		font-family:  $fontSecondary ;
+    		font-size: 22px;
+    		font-style: italic;
+    		line-height: 22px;
+		}
+
+		.intro-heading {
+    		margin-bottom: 25px;
+    		text-transform: uppercase;
+    		font-family:  $fontPrimary ;
+    		font-size: 46px;
+    		font-weight: 700;
+    		line-height: 46px;
+    		color:  $colorWhite;
+    		text-shadow: 0 0 50px black;
+		}
+	}
+}
+
+
+section {
+    padding: 100px 0;
+
+
+	h2.section-heading {
+    	margin-top: 0;
+    	margin-bottom: 15px;
+    	font-size: 40px;
+	}
+
+	h3.section-subheading {
+    	margin-bottom: 75px;
+    	text-transform: none;
+    	font-family:  $fontSecondary ;
+    	font-size: 16px;
+    	font-style: italic;
+    	font-weight: 400;
+	}
+}
