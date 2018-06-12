@@ -4,10 +4,9 @@ subtitle: |-
   Une équipe d'experts au sein de votre entreprise pour une mise en conformité
   sans faille.
 alt: image-alt
-category: Web Development
 client: Start Bootstrap
 date: '2014-07-18'
-img: audit.jpg
+img: ../imgs/audit.jpg
 layout: modal
 modal-id: 1
 product: true

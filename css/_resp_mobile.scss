@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
     	font-family:  $fontPrimary ;
     	font-size: 15px;
     	padding: 7px 5px;
-    	margin: 12px 0px 0px 5px;
+    	margin: 8px 5px 0px 5px;
     	font-weight: 400;
     	letter-spacing: 1px;
     	color:  $colorBlack ;
@@ -254,24 +254,26 @@ fieldset[disabled] .btn-xl.active {
     	color: #fff;
     	background-color:  $colorSecondary ;
 	}
+
+	#logo {
+  		position: absolute;
+  		width: 140px;
+  		-webkit-transition: all .3s;
+  		-moz-transition: all .3s;
+  		transition: all .3s;
+  		top: 8px;
+	}
+
+	&.navbar-shrink #logo {
+  		width: 140px;
+  		-webkit-transition: all .3s;
+  		-moz-transition: all .3s;
+  		transition: all .3s;
+  		top: 8px;
+	}
 }
 
-#logo {
-  	position: absolute;
-  	width: 100px;
-  	-webkit-transition: all .3s;
-  	-moz-transition: all .3s;
-  	transition: all .3s;
-  	top: 2px;
-}
 
-.navbar-shrink #logo {
-  	width: 180px;
-  	-webkit-transition: all .3s;
-  	-moz-transition: all .3s;
-  	transition: all .3s;
-  	top: 2px;
-}
 
 header {
     text-align: center;
@@ -284,8 +286,18 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
+
+	.container {
+		height: 100%;
+	}
 
 	.intro-text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
     	padding-top: 100px;
     	padding-bottom: 50px;
 
@@ -301,9 +313,9 @@ header {
     		margin-bottom: 25px;
     		text-transform: uppercase;
     		font-family:  $fontPrimary ;
-    		font-size: 46px;
+    		font-size: 35px;
     		font-weight: 700;
-    		line-height: 46px;
+    		line-height: 1.1;
     		color:  $colorWhite;
     		text-shadow: 0 0 50px black;
 		}

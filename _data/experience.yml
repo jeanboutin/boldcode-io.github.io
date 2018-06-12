@@ -1,0 +1,15 @@
+header: Notre métier
+
+steps:
+  - heading: Données
+    icon: info
+    description: La donnée est le carburant du numérique. Quelle que soit sa nature ou son usage, nous veillons à la valoriser dans le respect de l’humain.
+  - heading: Protection 
+    icon: lock
+    description: La confiance est le socle d’une transaction qui s’inscrit dans le temps. Nous veillons à la sécurité des échanges et des partages.
+  - heading: Automatisation 
+    icon: cogs 
+    description: La performance est l’objectif de toute entreprise. Nous prônons un progrès respectueux des droits et libertés.
+  - heading: Transition
+    icon: refresh
+    description: S’adapter à un écosystème mouvant est l’apanage des organisations durables. Nous accompagnons vos mutations.
