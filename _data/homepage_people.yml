@@ -1,0 +1,26 @@
+# Team names, titles and social links
+  - name: Valentin PISTOROZZI
+    pic: people-valentin-pistorozzi.jpg
+    position: Gestion et communication
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/laure-isabelle-ligaudan-12834019/
+      - title: twitter
+        url: https://twitter.com/lilconseil
+
+  - name: Glenn ROLLAND
+    pic: people-glenn-rolland
+    position: Développement business
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/glenux/
+      - title: twitter
+        url: https://twitter.com/glenux
+
+  - name: Bibek BASTOLA
+    pic: people-bibek-bastola
+    position: Gestion des équipes au Népal
+    social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/bastolabibek/
+

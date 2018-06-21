@@ -1,11 +1,5 @@
-title: Nos services
-subtitle: Nous développons pour vous sites web et outils métier sur-mesure 
-
-cards: 
-- header: Conception
-  description: blabla blablabla
-- header: Réalisation
-  description: ...
-- header: Maintenance
-  description: ...
+id: notre-offre
+title: Notre offre
+subtitle: Nous réalisons les logiciels qui répondent à vos enjeux métier
+selector: service
 

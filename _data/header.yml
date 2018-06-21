@@ -5,8 +5,6 @@ intro:
 menu:
   - title: Vision
     href: '#services'
-    #  - title: Conseil
-    # href: '#hotline_cards'
   - title: Produits
     href: '#product_cards'
   - title: Équipe 

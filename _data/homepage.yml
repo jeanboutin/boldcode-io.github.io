@@ -1,0 +1,8 @@
+- id: homepage_experience
+  layout: features
+- id: homepage_services
+  layout: cards
+- id: homepage_people
+  layout: people
+- id: homepage_contact
+  layout: contact

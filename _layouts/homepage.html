@@ -3,10 +3,20 @@
   	{% include html_head.html %}
     <body id="page-top" class="index">
     	{% include header.html %}
-    	{% include experience.html %}
-    	{% include product_cards.html %}
-    	{% include team.html %}
-    	{% include contact.html %}
+    	{% for block in site.data.homepage %}
+    		{% case block.layout %}
+    			{% when 'cards' %}{% include homepage_cards.html %}
+    			{% when 'features' %}{% include homepage_features.html %}
+    			{% when 'people' %}{% include homepage_people.html %}
+    			{% else %}
+    				Unknown type {{ block.layout }}
+    		{% endcase %}
+    	{% endfor %}
+
+    	{% comment %}
+    		{% include product_cards.html %}
+		{% endcomment %}
+
     	{% include footer.html %}
     	{% include modals.html %}
     	{% include js.html %}
