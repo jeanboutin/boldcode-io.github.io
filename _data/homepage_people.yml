@@ -1,4 +1,9 @@
+id: people
+title: Notre équipe
+subtitle: 
+
 # Team names, titles and social links
+people:
   - name: Valentin PISTOROZZI
     pic: people-valentin-pistorozzi.jpg
     position: Gestion et communication
@@ -23,4 +28,6 @@
     social:
     - title: linkedin
       url: https://www.linkedin.com/in/bastolabibek/
+    - title: twitter
+      url: https://twitter.com/bastolabibek
 

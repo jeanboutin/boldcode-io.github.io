@@ -1,0 +1,23 @@
+<!-- Services Section -->
+<section id="{{ block_data.id }}" class="bc-block bc-block-features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ block_data.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ block_data.subtitle }}</h3>
+            </div>
+        </div>
+        <div class="row">
+        	{% for feature in block_data.features %}
+            	<div class="col-md-3 col-sm-6 text-center">
+                	<span class="fa-stack fa-4x">
+                    	<i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    	<i class="fa fa-{{ feature.icon }} fa-stack-1x fa-inverse"></i>
+                	</span>
+                	<h4 class="service-heading">{{ feature.title }}</h4>
+                	<p class="text-muted text-left">{{ feature.description }}</p>
+            	</div>
+        	{% endfor %}
+        </div>
+    </div>
+</section>

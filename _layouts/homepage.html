@@ -4,10 +4,12 @@
     <body id="page-top" class="index">
     	{% include header.html %}
     	{% for block in site.data.homepage %}
+    		{% assign block_data = site.data[block.id] %}
     		{% case block.layout %}
-    			{% when 'cards' %}{% include homepage_cards.html %}
-    			{% when 'features' %}{% include homepage_features.html %}
-    			{% when 'people' %}{% include homepage_people.html %}
+    			{% when 'contact' %}{% include blocks/contact.html %}
+    			{% when 'cards' %}{% include blocks/cards.html %}
+    			{% when 'features' %}{% include blocks/features.html %}
+    			{% when 'people' %}{% include blocks/people.html %}
     			{% else %}
     				Unknown type {{ block.layout }}
     		{% endcase %}
