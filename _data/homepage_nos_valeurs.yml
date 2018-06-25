@@ -2,8 +2,8 @@ title: Nos valeurs
 subtitle: Parce que ça compte 
 
 items:
- - | 
-   BoldCode est une entreprise sociale de développement web et logiciels.  Face
+ - |-
+   "BoldCode est une entreprise sociale de développement web et logiciels.  Face
    à la pénurie de développeurs que nous rencontrons en Europe et aux US, le
    Népal abonde de développeurs extrêmement qualifiés, ne pouvant trouver
    d’emploi adapté à leurs qualifications dans leur pays natal du fait d’un
@@ -23,10 +23,9 @@ items:
 
    Bien que son enclavement géographique ait été pendant longtemps un frein
    majeur à son développement, il n’est désormais plus une barrière pour export
-   de logiciels, produits à très haute valeur ajoutée.
- 
- - |
-   Face à la pénurie de développeurs que nous rencontrons en Europe et aux US,
+   de logiciels, produits à très haute valeur ajoutée."
+ - |-
+   "Face à la pénurie de développeurs que nous rencontrons en Europe et aux US,
    le Népal abonde de développeurs extrêmement qualifiés, ne pouvant trouver
    d’emploi adapté à leurs qualifications dans leur pays natal du fait d’un
    marché local encore trop peu développé.
@@ -45,5 +44,4 @@ items:
 
    Bien que son enclavement géographique ait été pendant longtemps un frein
    majeur à son développement, il n’est désormais plus une barrière pour export
-   de logiciels, produits à très haute valeur ajoutée.
-   
+   de logiciels, produits à très haute valeur ajoutée."
