@@ -86,8 +86,8 @@
 			margin-top: 0.5rem;
 			color: $colorYellow;
 			float: left;
-			font-size: $fontSizeHuge;
 			margin-right: 10px;
+			font-size: $fontSizeBig * 1.2;
 			-moz-transform: scaleX(-1);
         	-o-transform: scaleX(-1);
         	-webkit-transform: scaleX(-1);
@@ -105,7 +105,6 @@
 			color: $colorYellow;
 			line-height: 1.25;
 			display: block;
-			font-size: $fontSizeBig;
 		}
 	}
 	.about-data {
