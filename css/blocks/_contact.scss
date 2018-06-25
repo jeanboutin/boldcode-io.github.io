@@ -1,12 +1,13 @@
 
 .bc-block-contact {
-    background-image: url('/img/test.png');
+    background-image: url('/img/contact/background.jpg');
     background-color: #222;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
 	.section-heading {
-color: #fff;
+		color: #fff;
 	}
 
 	.form-group {
@@ -14,17 +15,17 @@ color: #fff;
 	}
 
 	.form-group input,
-		.form-group textarea {
-padding: 20px;
-color:  $colorPrimary ;
+	.form-group textarea {
+		padding: 20px;
+		color:  $colorPrimary ;
 		}
 
 	.form-group input.form-control {
-height: auto;
+		height: auto;
 	}
 
 	.form-group textarea.form-control {
-height: 157px;
+		height: 157px;
 	}
 
 	.form-control:focus {
@@ -32,47 +33,45 @@ height: 157px;
 		box-shadow: none;
 	}
 
-#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-color: #bbb;
-}
+	&::-webkit-input-placeholder {
+    	text-transform: uppercase;
+    	font-family:  $fontPrimary ;
+    	font-weight: 700;
+	color: #bbb;
+	}
 
-#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-color: #bbb;
-}
+	&:-moz-placeholder {
+    	text-transform: uppercase;
+    	font-family:  $fontPrimary ;
+    	font-weight: 700;
+		color: #bbb;
+	}
 
-#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-color: #bbb;
-}
+	&::-moz-placeholder {
+    	text-transform: uppercase;
+    	font-family:  $fontPrimary ;
+    	font-weight: 700;
+		color: #bbb;
+	}
 
-#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-color: #bbb;
-}
+	&:-ms-input-placeholder {
+    	text-transform: uppercase;
+    	font-family:  $fontPrimary ;
+    	font-weight: 700;
+		color: #bbb;
+	}
 
-.text-danger {
-color: #e74c3c;
-}
+	.text-danger {
+		color: #e74c3c;
+	}
 
-p {
-color: #888;
+	p {
+		color: #888;
+	}
 
-}
-
-
-#mentions {
-	font-size: 18px;
-	margin-bottom: 15px;
-}
+	#mentions {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
 
 }
