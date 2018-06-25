@@ -5,7 +5,9 @@
 	.block-heading { }
 	.block-subheading { }
 
-	.item-heading { }
+	.item-heading {
+		@include typography-big;
+	}
 	.item-description { 
 		@include typography-normal;
 		text-align: left;
