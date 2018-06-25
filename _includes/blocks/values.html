@@ -1,0 +1,17 @@
+<!-- Team Section -->
+<section id="{{ block_data.id }}" class="bc-block bc-block-people">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Notre équipe</h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for member in block_data.items %}
+            <div class="col-xs-12 col-md-12 col-md-12">
+            	{{ block_data.description | markdownify }}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
