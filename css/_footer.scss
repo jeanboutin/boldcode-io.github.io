@@ -1,0 +1,48 @@
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  font-family:  $fontPrimary ;
+
+  .find-us {
+    list-style-type: none;
+    /* text-align: left; */
+padding: 0;
+  }
+
+  .find-us li {
+    line-height: 40px;
+  }
+
+  .find-us .social-media .fa {
+    margin-right: .5em;
+  }
+
+  .quicklinks {
+    list-style-type: none;
+    /* text-align: right; */
+padding: 0;
+  }
+
+  .quicklinks li {
+    line-height: 40px;
+  }
+
+  span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    line-height: 40px;
+  }
+
+  ul {
+display: inline-block;
+  }
+
+  ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family:  $fontPrimary ;
+    line-height: 40px;
+  }
+}

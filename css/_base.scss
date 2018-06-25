@@ -1,9 +1,14 @@
 
-@import "config.scss";
+@import "config/constants.scss";
+
+html {
+	font-size: 10px;
+	// font-size: 62.5%;
+}
 
 body {
     overflow-x: hidden;
-    font-family: $fontPrimary;
+    font-family: $fontSecondary;
     color:  $colorSecondaryDark;
 }
 
@@ -20,14 +25,13 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: $fontSizeNormal;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: $fontSizeBig;
 }
-/* rule/cssDuplicatedSelectors */
 
 a,
 a:hover,
@@ -59,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-family:  $fontPrimary ;
     font-weight: 700;
 }
@@ -135,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family:  $fontPrimary ;
-    font-size: 18px;
+    font-size: $fontSizeBig;
     font-weight: 700;
     color: #fff;
     background-color:  $colorPrimary ;
@@ -188,7 +192,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: $colorWhite;
-    border-bottom: 1px solid $colorYellow;
+    border-bottom: 1px solid $colorBlack;
     background-color: $colorWhite;
 
 	.navbar-brand {
@@ -225,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 	.nav li a {
     	text-transform: uppercase;
     	font-family:  $fontPrimary ;
-    	font-size: 15px;
+    	font-size: $fontSizeNormal;
     	padding: 7px 5px;
     	margin: 8px 5px 0px 5px;
     	font-weight: 400;
@@ -304,16 +308,16 @@ header {
 		.intro-lead-in {
     		margin-bottom: 25px;
     		font-family:  $fontSecondary ;
-    		font-size: 22px;
+    		font-size: $fontSizeBig;
     		font-style: italic;
     		line-height: 22px;
 		}
 
 		.intro-heading {
     		margin-bottom: 25px;
-    		text-transform: uppercase;
+    		// text-transform: uppercase;
     		font-family:  $fontPrimary ;
-    		font-size: 35px;
+    		font-size: $fontSizeHuge;
     		font-weight: 700;
     		line-height: 1.1;
     		color:  $colorWhite;
@@ -330,14 +334,14 @@ section {
 	h2.section-heading {
     	margin-top: 0;
     	margin-bottom: 15px;
-    	font-size: 40px;
+    	font-size: $fontSizeHuge;
 	}
 
 	h3.section-subheading {
     	margin-bottom: 75px;
     	text-transform: none;
     	font-family:  $fontSecondary ;
-    	font-size: 20px;
+    	font-size: $fontSizeBig;
     	font-weight: 400;
 	}
 }

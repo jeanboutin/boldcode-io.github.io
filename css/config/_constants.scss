@@ -16,12 +16,22 @@ $fontDroid: '"Droid Sans", "Helvetica Neue", Helvetica,Arial,sans-serif';
 $fontMontserrat: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
 $fontRoboto: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 $fontLato: "Lato",Helvetica,Arial,sans-serif;
+$fontOpenSans: 'Open Sans', sans-serif;
+
+$sizeFactor: 1.618033988749895; // phi
+// $sizeFactor: 1.4142135623730951; // sqrt(2) 
+
+$fontSizeNormal: 1.5rem;
+$fontSizeTitle: $fontSizeNormal * ($sizeFactor * $sizeFactor * $sizeFactor);
+$fontSizeHuge: $fontSizeNormal * ($sizeFactor * $sizeFactor );
+$fontSizeBig: $fontSizeNormal * $sizeFactor;
+$fontSizeSmall: $fontSizeNormal / $sizeFactor;
 
 /* Define primary & secondary values */
 $colorPrimary: $colorBlue;
 $colorSecondaryDark: $colorGreyDark;
 $colorSecondary: #47ECC1;
 
-$fontPrimary: $fontLato;
-$fontSecondary: $fontFira;
+$fontPrimary: $fontFira;
+$fontSecondary: $fontOpenSans;
 

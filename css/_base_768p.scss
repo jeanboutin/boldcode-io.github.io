@@ -1,5 +1,5 @@
 
-@import "config.scss";
+@import "config/constants.scss";
 
 .navbar-default {
     padding: 25px 0;
@@ -8,10 +8,10 @@
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    border-bottom: 1px solid $colorYellow;
+    border-bottom: 1px solid $colorBlack;
 
     .navbar-brand {
-        font-size: 2em;
+        font-size: $fontSizeBig;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -24,12 +24,12 @@
 	/*couleur de la barre en haut*/
     &.navbar-shrink {
         padding: 10px 0;
-        background-color:  $colorWhite ;
-        border-bottom: 1px solid orange;
+        background-color:  $colorWhite;
+        border-bottom: 1px solid $colorBlack;
     }
 
     &.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: $fontSizeBig;
     }
 
 	#logo {
@@ -58,18 +58,14 @@ header {
    	.intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family:  $fontSecondary ;
-        font-size: 40px;
+        font-size: $fontSizeHuge;
         font-style: italic;
-        line-height: 40px;
+        line-height: 1;
     }
 
    	.intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family:  $fontPrimary ;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: $fontSizeTitle;
     }
 }
 

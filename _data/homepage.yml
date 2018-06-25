@@ -1,8 +1,8 @@
-- id: homepage_experience
+- id: homepage_notre_metier
   layout: features
-- id: homepage_services
+- id: homepage_notre_offre
   layout: cards
-- id: homepage_people
+- id: homepage_notre_equipe
   layout: people
 - id: homepage_contact
   layout: contact

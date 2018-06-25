@@ -1,0 +1,40 @@
+id: notre-metier
+title: Notre métier
+subtitle: |
+  Vous offrir l'accès à des compétences techniques de haut niveau pour réaliser vos projets web et mobiles
+
+items:
+  - title: Expertise technique
+    icon: cogs
+    description: |
+      Nos équipes sont expertes en développement logiciel : nous fabriquons
+      sites internet, sites e-commerce, applications web et applications
+      mobiles sur-mesure.
+
+  - title: Tarif abordable
+    icon: lock
+    description: |
+      Comme nous travaillons au Népal, nos ressources techniques de haut niveau
+      sont à un prix abordable même pour les TPE/PME.
+
+
+  - title: Ressources sur-mesure
+    icon: refresh
+    description: |
+      Vous pouvez faire appel à nous pour équilibrer votre charges de travail 
+      et compléter vos équipes à la demande.
+
+  - title: Impact social
+    icon: info 
+    description: |
+      Des 
+      FIXME
+
+# Plus besoin de se préoccuper de la rareté des profils en
+# informatique et la gestion du turnover, 
+
+# Entre le coût du recrutement, le salaire, la gestion du turnover, etc. Il
+# est intéressant d'équilibrer ses charges avec une équipe offshore. Sans
+# remplacer votre équipe, elle vient la compléter pour respecter vos
+# engagements.
+

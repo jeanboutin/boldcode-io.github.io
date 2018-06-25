@@ -1,0 +1,13 @@
+
+@import "../config/constants.scss";
+
+.bc-block-features {
+	.block-heading { }
+	.block-subheading { }
+
+	.item-heading { }
+	.item-description { 
+		text-align: left;
+		font-family: $fontSecondary;
+	}
+}

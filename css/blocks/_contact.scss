@@ -1,0 +1,78 @@
+
+.bc-block-contact {
+    background-image: url('/img/test.png');
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+
+	.section-heading {
+color: #fff;
+	}
+
+	.form-group {
+		margin-bottom: 25px;
+	}
+
+	.form-group input,
+		.form-group textarea {
+padding: 20px;
+color:  $colorPrimary ;
+		}
+
+	.form-group input.form-control {
+height: auto;
+	}
+
+	.form-group textarea.form-control {
+height: 157px;
+	}
+
+	.form-control:focus {
+		border-color:  $colorPrimary ;
+		box-shadow: none;
+	}
+
+#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+color: #bbb;
+}
+
+#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+color: #bbb;
+}
+
+#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+color: #bbb;
+}
+
+#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family:  $fontPrimary ;
+    font-weight: 700;
+color: #bbb;
+}
+
+.text-danger {
+color: #e74c3c;
+}
+
+p {
+color: #888;
+
+}
+
+
+#mentions {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+}

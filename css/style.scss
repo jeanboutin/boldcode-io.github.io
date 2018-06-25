@@ -2,13 +2,21 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-@import "config.scss";
+@import "config/fonts.scss";
+@import "config/constants.scss";
 @import "ext/bootstrap.min.css";
 
-@import "resp_mobile.scss";
+@import "base.scss";
+@import "blocks/features.scss";
+@import "blocks/contact.scss";
+@import "blocks/team.scss";
+@import "footer.scss";
 
 @media(min-width:768px) {
-	@import "resp_768p.scss";
+	@import "base_768p.scss";
+	@import "blocks/features_768p.scss";
+	@import "blocks/contact_768p.scss";
+	@import "blocks/team_768p.scss";
 }
 
 
@@ -104,27 +112,27 @@
     }
 }
 
-#hotline_cards {
+.bc-block-cards {
 	background-color:  $colorYellow ;
 }
 
-#hotline_cards .section-subheading {
+.bc-block-cards .section-subheading {
 	color: white;
 }
 
-#hotline_cards .portfolio-item {
+.bc-block-cards .portfolio-item {
     right: 0;
     margin: 0 0 50px;
 }
 
-#hotline_cards .portfolio-item .portfolio-link {
+.bc-block-cards .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover {
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -135,11 +143,11 @@
     background: rgba( $colorPrimary, .9);
 }
 
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover:hover {
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -150,16 +158,16 @@
     color: #fff;
 }
 
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#hotline_cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.bc-block-cards .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#hotline_cards .portfolio-item .portfolio-caption {
+.bc-block-cards .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -168,12 +176,12 @@
     background-color: #fff;
 }
 
-#hotline_cards .portfolio-item .portfolio-caption h4 {
+.bc-block-cards .portfolio-item .portfolio-caption h4 {
     margin: 0 0 15px 0;
     text-transform: none;
 }
 
-#hotline_cards .portfolio-item .portfolio-caption p {
+.bc-block-cards .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family:  $fontSecondary ;
     font-size: 16px;
@@ -181,12 +189,12 @@
     line-height: 1.5;
 }
 
-#hotline_cards * {
+.bc-block-cards * {
     z-index: 4;
 }
 
 @media(min-width:768px) {
-    #hotline_cards .portfolio-item {
+    .bc-block-cards .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -420,81 +428,12 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
-    background-image: url('{{ site.baseurl }}/img/test.png');
-    background-color: #222;
-    background-position: center;
-    background-repeat: no-repeat;
+
+
+section#about #sensibilisation {
+  	margin-top: 75px;
 }
 
-
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#team .section-heading {
-	margin-bottom: 75px;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-    color:  $colorPrimary ;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 157px;
-}
-
-section#contact .form-control:focus {
-    border-color:  $colorPrimary ;
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
-
-section#contact p {
-  	color: #888;
-
-}
 
 .portfolioModal4 .modal-body .titres {
   	font-size: 16px;
@@ -506,67 +445,8 @@ section#contact p {
   	margin: 0px 0px 25px 0px;
 }
 
-section#contact #mentions {
-  	font-size: 18px;
-  	margin-bottom: 15px;
-}
-
-section#about #sensibilisation {
-  	margin-top: 75px;
-}
 
 
-
-
-
-
-footer {
-    padding: 25px 0;
-    text-align: center;
-    font-family:  $fontPrimary ;
-}
-
-footer .find-us {
-	list-style-type: none;
-	/* text-align: left; */
-	padding: 0;
-}
-
-footer .find-us li {
-    line-height: 40px;
-}
-
-footer .find-us .social-media .fa {
-	margin-right: .5em;
-}
-
-footer .quicklinks {
-	list-style-type: none;
-	/* text-align: right; */
-	padding: 0;
-}
-
-footer .quicklinks li {
-    line-height: 40px;
-}
-
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    line-height: 40px;
-}
-
-footer ul {
-	display: inline-block;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family:  $fontPrimary ;
-    line-height: 40px;
-}
 
 ul.social-buttons {
     margin-bottom: 0;

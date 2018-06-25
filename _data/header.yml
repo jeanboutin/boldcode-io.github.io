@@ -1,14 +1,14 @@
 intro:
-  lead-in: Pour vos projets informatiques
-  heading: Adoptez l'outsourcing éthique au Népal
+  lead-in: Pour vos projets informatiques, adoptez
+  heading: l'outsourcing éthique au Népal
 
 menu:
-  - title: Vision
-    href: '#services'
-  - title: Produits
-    href: '#product_cards'
+  - title: Métier
+    href: '#notre-metier'
+  - title: Offre
+    href: '#notre-offre'
   - title: Équipe 
-    href: '#team'
+    href: '#notre-equipe'
   - title: Contact
     href: '#contact'
 
