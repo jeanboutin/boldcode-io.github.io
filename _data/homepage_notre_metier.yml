@@ -12,13 +12,13 @@ items:
       mobiles sur-mesure.
 
   - title: Tarif abordable
-    icon: lock
+    icon: money-bill
     description: |
       Comme nous travaillons au Népal, nos ressources techniques de haut niveau
       sont à un prix abordable même pour les TPE/PME.
 
   - title: Ressources sur-mesure
-    icon: refresh
+    icon: users
     description: |
       Nous vous aidons à équilibrer votre charges de travail et compléter vos
       équipes à la demande. Nous garantissons des développeurs dédiés à votre
