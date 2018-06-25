@@ -21,12 +21,15 @@ body {
 }
 
 p, ul {
-    font-size: $fontSizeNormal;
-    line-height: 1.75;
+	@include typography-normal;
+}
+
+ul {
+	padding-left: 2rem;
 }
 
 p.large {
-    font-size: $fontSizeBig;
+	@include typography-big;
 }
 
 a,
@@ -305,7 +308,7 @@ header {
     		font-family:  $fontSecondary ;
     		font-size: $fontSizeBig;
     		font-style: italic;
-    		line-height: 22px;
+    		line-height: 1.35;
 		}
 
 		.intro-heading {
@@ -314,7 +317,7 @@ header {
     		font-family:  $fontPrimary ;
     		font-size: $fontSizeHuge;
     		font-weight: 700;
-    		line-height: 1.1;
+    		line-height: 1.25;
     		color:  $colorWhite;
     		text-shadow: 0 0 50px black;
 		}
@@ -333,10 +336,11 @@ section {
 	}
 
 	h3.section-subheading {
+		@include typography-big;
+
     	margin-bottom: 75px;
     	text-transform: none;
     	font-family:  $fontSecondary ;
-    	font-size: $fontSizeBig;
     	font-weight: 400;
 	}
 }
