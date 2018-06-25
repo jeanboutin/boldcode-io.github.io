@@ -1,13 +1,21 @@
 
 .bc-block-contact {
     background-image: url('/img/contact/background.jpg');
-    background-color: #222;
+    background-color: $colorBlack;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+	h4 {
+		color: $colorWhite;
+	}
+
+	p {
+		color: $colorWhite;
+	}
+
 	.section-heading {
-		color: #fff;
+		color: $colorWhite;
 	}
 
 	.form-group {
@@ -18,7 +26,7 @@
 	.form-group textarea {
 		padding: 20px;
 		color:  $colorPrimary ;
-		}
+	}
 
 	.form-group input.form-control {
 		height: auto;
@@ -65,13 +73,37 @@
 		color: #e74c3c;
 	}
 
-	p {
-		color: #888;
-	}
+	.phone-block {
+		color: white;
+		font-weight: bold;
+		clear: both;
 
-	#mentions {
-		font-size: 18px;
-		margin-bottom: 15px;
+		.fa-phone {
+			margin-top: 0.5rem;
+			float: left;
+			font-size: $fontSizeHuge;
+			margin-right: 10px;
+			-moz-transform: scaleX(-1);
+        	-o-transform: scaleX(-1);
+        	-webkit-transform: scaleX(-1);
+        	transform: scaleX(-1);
+        	filter: FlipH;
+        	-ms-filter: "FlipH";
+		}
+		.title {
+			line-height: 1.25;
+			display: block;
+		}
+		.phone {
+			line-height: 1.25;
+			display: block;
+			font-size: $fontSizeBig;
+		}
 	}
+	.about-data {
+		color: white;
+		font-weight: bold;
 
+	}
 }
+

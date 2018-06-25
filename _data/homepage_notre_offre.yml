@@ -3,18 +3,3 @@ title: Notre offre
 subtitle: Nous réalisons les outils numériques qui répondent à vos enjeux métier
 selector: service
 
-items:
-  - title: Conception
-    subtitle: |-
-      Nos équipes reprennent, corrigent et adaptent vos logiciels pour accompagner
-      vos besoins
-    modal-target-id: 12
-    thumbnail: service-maintenance-small.jpg
-  - title: truc
-    subtitle: Réalisation
-    modal-target-id: FIXME
-    thumbnail: FIXME
-  - title: truc
-    subtitle: Maintenance
-    modal-target-id: FIXME
-    thumbnail: FIXME
