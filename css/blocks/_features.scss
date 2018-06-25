@@ -7,10 +7,12 @@
 
 	.item-heading {
 		@include typography-big;
+		margin-top: 2.6rem;
 	}
 	.item-description { 
 		@include typography-normal;
 		text-align: left;
 		font-family: $fontSecondary;
+		margin-bottom: 4rem;
 	}
 }
