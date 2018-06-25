@@ -228,25 +228,25 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h4 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: $fontSizeBig;
 }
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    font-size: $fontSizeNormal;
 }
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family:  $fontSecondary ;
-    font-size: 16px;
+    font-size: $fontSizeNormal;
     font-style: italic;
 }
 
@@ -295,26 +295,17 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-body p {
-  	font-size: 15px;
-  	text-align: justify;
+  	font-size: $fontSizeNormal;
+  	text-align: left;
 }
 
 .portfolio-modal .modal-body ul {
-  	font-size: 15px;
-  	text-align: justify;
+  	font-size: $fontSizeNormal;
+  	text-align: left;
 }
 
 .portfolio-modal .modal-body p .development {
   	color:  $colorPrimary ;
-}
-
-@media(min-width:768px) {
-
-  	.portfolio-modal .modal-body p {
-    	font-size: 23px;
-    	text-align: justify;
-  	}
-
 }
 
 ::-moz-selection {
@@ -339,3 +330,8 @@ body {
     webkit-tap-highlight-color:  $colorPrimary ;
 }
 
+.block-heading {
+	&::after {
+		content: "_";
+	}
+}

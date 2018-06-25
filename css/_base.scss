@@ -13,18 +13,14 @@ body {
 }
 
 .text-muted {
-    color:  $colorMuted;
-}
-
-.text-muted2 {
-    color:  $colorMuted2 ;
+    color:  $colorGreyDark;
 }
 
 .text-primary {
     color:  $colorPrimary ;
 }
 
-p {
+p, ul {
     font-size: $fontSizeNormal;
     line-height: 1.75;
 }
@@ -89,7 +85,7 @@ h3.text-muted2.clearfix{
     text-transform: uppercase;
     font-family:  $fontPrimary ;
     font-weight: 700;
-    color: #fff;
+    color: $colorWhite;
     background-color:  $colorPrimary ;
 }
 
@@ -98,9 +94,9 @@ h3.text-muted2.clearfix{
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color:  $colorPrimary ;
+    border-color:  $colorYellow;
     color: #fff;
-    background-color:  $colorSecondary ;
+    background-color:  $colorYellow;
 }
 
 .btn-primary:active,
@@ -141,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
     font-family:  $fontPrimary ;
     font-size: $fontSizeBig;
     font-weight: 700;
-    color: #fff;
+    color: $colorWhite;
     background-color:  $colorPrimary ;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -154,10 +150,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color:  $colorPrimary ;
-    color: #333;
-    background-color:  $colorSecondary ;
-
+    border-color:  $colorSecondary;
+    color: $colorWhite;
+    background-color: $colorSecondary;
 }
 
 .btn-xl:active,
@@ -187,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color:  $colorPrimary ;
-    background-color: #fff;
+    background-color: $colorWhite;
 }
 
 .navbar-default {
@@ -218,7 +213,7 @@ fieldset[disabled] .btn-xl.active {
 	}
 
 	.navbar-toggle .icon-bar {
-    	background-color: #fff;
+    	background-color: $colorWhite;
 	}
 
 	.navbar-toggle:hover,
@@ -249,13 +244,13 @@ fieldset[disabled] .btn-xl.active {
 
 	.navbar-nav > .active > a {
     	border-radius: 0;
-    	color: #fff;
+    	color: $colorWhite;
     	background-color:  $colorPrimary ;
 	}
 
 	.navbar-nav > .active > a:hover,
 	.navbar-nav > .active > a:focus {
-    	color: #fff;
+    	color: $colorWhite;
     	background-color:  $colorSecondary ;
 	}
 

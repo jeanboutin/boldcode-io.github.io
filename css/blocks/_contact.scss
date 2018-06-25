@@ -6,6 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+	h3 {
+		color: $colorYellow;
+	}
+
 	h4 {
 		color: $colorWhite;
 	}
@@ -80,6 +84,7 @@
 
 		.fa-phone {
 			margin-top: 0.5rem;
+			color: $colorYellow;
 			float: left;
 			font-size: $fontSizeHuge;
 			margin-right: 10px;
@@ -91,10 +96,13 @@
         	-ms-filter: "FlipH";
 		}
 		.title {
+			font-weight: bold;
+			text-transform: uppercase;
 			line-height: 1.25;
 			display: block;
 		}
 		.phone {
+			color: $colorYellow;
 			line-height: 1.25;
 			display: block;
 			font-size: $fontSizeBig;
