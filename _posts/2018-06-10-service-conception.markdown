@@ -3,7 +3,7 @@ type: service
 title: Conception
 subtitle: |-
   Nos ingénieurs vous accompagnent sur la conception technique et la réalisation
-  du cahier des charges
+  du cahier des charges.
 alt: image-alt
 picture: service-conception.jpg
 thumbnail: service-conception-small.jpg
