@@ -27,11 +27,11 @@ items:
    title: Girls In Technology - Nepal
    picture_wide: false
 
- - url: https://www.facebook.com/momolacafe/
-   show_title: false
-   picture: palpasa-coffee.jpg
-   title: Palpasa Cafe
-   picture_wide: false
+#  - url: https://www.facebook.com/momolacafe/
+#    show_title: false
+#    picture: palpasa-coffee.jpg
+#    title: Palpasa Cafe
+#    picture_wide: false
 
  - url: https://www.ticketforchange.org
    show_title: false
@@ -39,9 +39,9 @@ items:
    title: Ticket For Change
    picture_wide: false
 
- - url: https://www.facebook.com/groups/QUAKEVOLUNTEERS/
-   show_title: false
-   picture: quick-volunteer.jpg
-   title: Quick Volunteers
-   picture_wide: false
+#  - url: https://www.facebook.com/groups/QUAKEVOLUNTEERS/
+#    show_title: false
+#    picture: quick-volunteer.jpg
+#    title: Quick Volunteers
+#    picture_wide: false
 
