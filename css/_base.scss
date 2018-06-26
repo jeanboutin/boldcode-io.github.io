@@ -124,8 +124,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color:  $colorPrimary ;
-    background-color:  $colorPrimary ;
+    border-color:  $colorPrimary;
+    background-color:  $colorPrimary;
 }
 
 .btn-primary .badge {
@@ -135,14 +135,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color:  $colorPrimary ;
+    border-color:  $colorPrimary;
     border-radius: 3px;
-    text-transform: uppercase;
-    font-family:  $fontPrimary ;
-    font-size: $fontSizeBig;
-    font-weight: 700;
+    // text-transform: uppercase;
+    font-family:  $fontPrimary;
+    font-size: $fontSizeNormal;
+    font-weight: bold;
     color: $colorWhite;
-    background-color:  $colorPrimary ;
+    background-color:  $colorPrimary;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -276,8 +276,6 @@ fieldset[disabled] .btn-xl.active {
 	}
 }
 
-
-
 header {
     text-align: center;
     color:  $colorWhite ;
@@ -325,23 +323,33 @@ header {
 	}
 }
 
-
-section {
+.bc-block {
     padding: 100px 0;
 
-
-	h2.section-heading {
-    	margin-top: 0;
+	.bc-block-heading {
+		text-align: center;
     	margin-bottom: 3.2rem;
+	}
+
+	.bc-block-title {
+    	margin-top: 0;
     	font-size: $fontSizeHuge;
 	}
 
-	h3.section-subheading {
+	.bc-block-subtitle {
 		@include typography-big;
 
-    	margin-bottom: 75px;
+    	margin-bottom: 7.5rem;
     	text-transform: none;
     	font-family:  $fontSecondary ;
-    	font-weight: 400;
+    	font-weight: normal;
+	}
+
+    .bc-block-action {
+    	margin-bottom: 3.2rem;
+	}
+	.bc-block-heading + .bc-block-action {
+		margin-top: -(7.5rem - 3.2rem);
+    	margin-bottom: 7.5rem;
 	}
 }

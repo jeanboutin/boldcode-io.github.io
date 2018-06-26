@@ -12,12 +12,20 @@
     	z-index: 4;
 	}
 
-	.section-heading {
+	.bc-block-heading {
 		color: $colorWhite;
 	}
 
-	.section-subheading {
+	.bc-block-action .btn {
+		background-color: $colorBlack;
+		border-color: $colorBlack;
 		color: $colorWhite;
+
+		&:hover {
+		background-color: $colorYellow;
+		border-color: $colorYellow;
+		color: $colorBlack;
+		}
 	}
 
 	.portfolio-item {

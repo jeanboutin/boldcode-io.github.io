@@ -6,20 +6,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-	h3 {
-		color: $colorYellow;
-	}
-
-	h4 {
+	h4, p {
 		color: $colorWhite;
 	}
 
-	p {
+	.bc-block-heading {
 		color: $colorWhite;
-	}
 
-	.section-heading {
-		color: $colorWhite;
+		.bc-block-subtitle {
+			color: $colorYellow;
+		}
 	}
 
 	.form-group {
