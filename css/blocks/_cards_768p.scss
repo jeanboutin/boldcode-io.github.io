@@ -1,5 +1,10 @@
 
+.bc-block-cards {
+	h4 {
+		font-size: $fontSizeNormal;
+	}
 
-.bc-block-cards .portfolio-item {
-    margin: 0 0 30px;
+	.portfolio-item {
+    	margin: 0 0 30px;
+	}
 }

@@ -106,6 +106,10 @@
 			line-height: 1.25;
 			display: block;
 		}
+
+		&:last-child {
+			margin-bottom: 4rem;
+		}
 	}
 	.about-data {
 		color: white;
