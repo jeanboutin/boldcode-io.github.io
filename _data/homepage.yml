@@ -6,5 +6,7 @@
 #  layout: people
 - id: homepage_nos_valeurs
   layout: values
+- id: homepage_partenaires
+  layout: partners
 - id: homepage_contact
   layout: contact

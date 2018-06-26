@@ -1,0 +1,22 @@
+.bc-block-partners {
+
+	.partner-item {
+		text-align: center;
+		padding: 2rem;
+
+		a {
+			display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+			height: 150px;
+		}
+
+		img {
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+
+		.caption {
+		}
+	}
+}

@@ -24,6 +24,9 @@
 @import "blocks/contact.scss";
 @import "blocks/team.scss";
 @import "blocks/cards.scss";
+@import "blocks/values.scss";
+@import "blocks/partners.scss";
+
 @import "footer.scss";
 
 @media(min-width:768px) {
@@ -32,6 +35,8 @@
 	@import "blocks/contact_768p.scss";
 	@import "blocks/team_768p.scss";
 	@import "blocks/cards_768p.scss";
+	@import "blocks/values_768p.scss";
+	@import "blocks/partners_768p.scss";
 }
 
 
