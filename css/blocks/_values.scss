@@ -1,5 +1,7 @@
 
+@import "../config/constants.scss";
+
 .bc-block-values {
-	background-color: $colorYellow;
-	color: mix($colorBlack, black);
+	background-color: $colorBoldcodeBlack;
+	color: $colorWhite;
 }

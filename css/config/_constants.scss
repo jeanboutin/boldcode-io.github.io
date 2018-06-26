@@ -1,8 +1,9 @@
 /* typography grid: 32px offset 0 */
 
-$colorBlack: #101010;
 $colorBlue: #009fcb;
-$colorBoldcodeBlack: '#241c1c';
+$colorBoldcodeBlack: #241c1c;
+// $colorBlack: #101010;
+$colorBlack: $colorBoldcodeBlack;
 $colorGreen: #00A076;
 $colorGreyDark: #333;
 $colorWhite: #fefefe;
