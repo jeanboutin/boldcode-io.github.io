@@ -46,8 +46,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Fécamp
-  - line: Fécamp
+  - line: Annecy
 
 # Build settings
 markdown: kramdown
