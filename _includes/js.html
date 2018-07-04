@@ -32,7 +32,7 @@
 	if (isLocalhost) {
 		window.mailService = 'http://localhost:8080';
 	} else {
-		window.mailService = '//maily.' + window.localhost.host;
+		window.mailService = '//maily.' + window.location.host;
 	}
 
 	// force ssl on production 
