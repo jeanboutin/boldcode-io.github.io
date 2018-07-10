@@ -6,7 +6,7 @@ subtitle:
 items:
   - name: Valentin PISTOROZZI
     picture: valentin-pistorozzi.jpg
-    position: Gestion et communication
+    position: Management and communication
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/valentinpistorozzi/
@@ -15,7 +15,7 @@ items:
 
   - name: Glenn ROLLAND
     picture: glenn-rolland.jpg
-    position: Expertise technique
+    position: Technical expertise
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/glenux/
@@ -24,7 +24,7 @@ items:
 
   - name: Bibek BASTOLA
     picture: bibek-bastola.jpg
-    position: Gestion des équipes au Népal
+    position: Team management in Nepal
     social:
     - title: linkedin
       url: https://www.linkedin.com/in/bastolabibek/

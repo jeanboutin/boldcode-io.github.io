@@ -1,35 +1,33 @@
 id: notre-metier
-title: Notre métier
+title: Our engagement 
 subtitle: |
-  Vous offrir l'accès à des compétences techniques de haut niveau pour réaliser vos projets web et mobiles
+  Offering you top-quality technical services to carry out your website and mobile application projects
 
 items:
-  - title: Expertise technique
+  - title: Technical expertise 
     icon: cogs
     description: |
-      Nos équipes sont expertes en développement logiciel : nous fabriquons
-      sites internet, sites e-commerce, applications web et applications
-      mobiles sur-mesure.
+      Our teams are expert in software development : we develop 
+      custom-made websites, e-commerce websites, web applications 
+      and mobile applications.
 
-  - title: Tarif abordable
+  - title: Affordable price
     icon: hand-holding-usd
     description: |
-      Nos ressources techniques de haut niveau sont à un prix abordable aussi
-      bien pour les grands groupes que pour les TPE et PME.<br/><br/>
+      Our top-quality technical resources are affordable for large 
+      companies as well as for startups or medium size companies.<br/><br/>
 
-  - title: Ressources sur-mesure
+  - title: Customized resources
     icon: users
     description: |
-      Nous vous aidons à équilibrer votre charge de travail et compléter vos
-      équipes à la demande. Nous garantissons des développeurs dédiés à votre
-      entreprise.
+      We can help you to balance your workload and to complete your teams on demand. 
+      We guarantee available developers dedicated to your company.
 
-  - title: Impact social
+  - title: Social impact
     icon: hands-helping
     description: |
-      Nous utilisons les différences de revenu entre pays pour investir dans des
-      activités d’accès à l’éducation et améliorer les conditions de travail
-      localement.
+      We use the difference of revenues between countries as a leverage to invest 
+      in education access in Nepal and to improve the working conditions locally.
       
 
 # Plus besoin de se préoccuper de la rareté des profils en
